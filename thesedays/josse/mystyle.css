@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto/Roboto-Italic.ttf);
+}
+
+* {
+font-family:'Roboto';
+}
+
+/*
+body {
+  background-color: white;
+}*/
+
+/*#Iframe1
+{
+    position: absolute;
+    height: 50%;
+    width: 100%; 
+    top:100px;
+    opacity: 0.8;
+}
+*/
+/*
+h1 {
+  color: black;
+  margin:20px;
+  padding: 20px;
+  opacity: 0.8;
+  top:0px;
+  font-size: 90px;
+}
+
+h2 {
+  position: absolute;
+  color: lightblue;
+  opacity: 0.5;
+  top:0px;
+  right:1%;
+  margin:0px;
+  padding: 0px;
+  font-size: 200px;
+  cursor: pointer;
+  display: inline-block;
+
+
+}
+
+*/
