@@ -208,8 +208,8 @@ var c12a = 50;
 
 //TEXT
 
-let c1text = 'Transit in the House of Cancer'; 
-let c1stext = 'Gessneralle, CH.';
+let c1text = 'History'; 
+let c1stext = '2014-2030';
 
 let c2text = 'Turba Tol'; 
 let c2stext = 'Venice Biennale 2022, IT.';
@@ -364,7 +364,7 @@ iframe0.position(iframeleftall,64 );
 iframe0.hide();
 
 iframe1 = sketch.createElement("iframe");
-iframe1.attribute("src","https://www.gessnerallee.ch/en/event/1007/Transit_in_the_House_of_Cancer");
+iframe1.attribute("src","iframes/crfinland.html");
 iframe1.attribute("frameborder","none");
 iframe1.attribute("height", sketch.windowHeight);
 iframe1.attribute("width", "640");
