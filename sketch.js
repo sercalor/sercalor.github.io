@@ -211,14 +211,14 @@ var c12a = 50;
 let c1text = 'History'; 
 let c1stext = '2014-2030';
 
-let c2text = 'Turba Tol'; 
-let c2stext = 'Venice Biennale 2022, IT.';
+let c2text = 'Construction'; 
+let c2stext = 'made by hand.';
 
-let c3text = 'Tarqueada Uru-Chipaya'; 
-let c3stext = 'Album, Bolivia';
+let c3text = 'User Manual'; 
+let c3stext = 'Otaniemi Campus';
 
-let c4text = 'DISTANCIA'; 
-let c4stext = 'Collaboration, New Museum NYC.';
+let c4text = 'Squirrels nest'; 
+let c4stext = 'Curated by Maria Villa.';
 
 let c5text = 'Conversing with Josse'; 
 let c5stext = 'Trans-Human Communication.';
