@@ -1,0 +1,29 @@
+@import url(//fonts.googleapis.com/css?family=Georgia);
+
+body {
+  font-family: 'Georgia', sans-serif;
+  color: rgba(0,0,0,0.8);
+  font-weight: 200;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 1.3rem;
+  padding: 50px;
+}
+
+h1 {
+  font-family: 'Georgia', sans-serif;
+  color: rgba(0,0,0,0.8);
+  font-weight: 300;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 0.3rem;
+  padding: 50px;
+}
+
+
+h2 {float:right;}
+
+canvas {
+  display: block;
+}
+
