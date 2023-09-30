@@ -370,7 +370,7 @@ iframe1.attribute("height", sketch.windowHeight);
 iframe1.attribute("width", "640");
 iframe1.mouseOver(iframeover);
 iframe1.position(iframeleftall,64 );
-iframe1.show();
+iframe1.hide();
 
 iframe2 = sketch.createElement("iframe");
 iframe2.attribute("src","iframes/crfinland.html");
@@ -391,7 +391,7 @@ iframe3.position(iframeleftall,64 );
 iframe3.hide();
 
 iframe4 = sketch.createElement("iframe");
-iframe4.attribute("src","https://www.newmuseum.org/pages/view/distancia");
+iframe4.attribute("src","iframes/custodian.html");
 iframe4.attribute("frameborder","none");
 iframe4.attribute("height", sketch.windowHeight);
 iframe4.attribute("width", "640");
@@ -1180,8 +1180,8 @@ c3overBox = false;
 
   if (c1overBox) {
     iframe1.show();
-    iframe0.hide();
-    iframenews.hide();
+//    iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe1.hide();
@@ -1190,8 +1190,8 @@ c3overBox = false;
 ////////
 if (c2overBox) {
     iframe2.show();
-    iframe0.hide();
-    iframenews.hide();
+//    iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe2.hide();
@@ -1201,8 +1201,8 @@ if (c2overBox) {
 
 if (c3overBox) {
     iframe3.show();
-    iframe0.hide();
-    iframenews.hide();
+//    iframe0.hide();
+//    iframenews.hide();
 
   } else {
     iframe3.hide();
@@ -1214,8 +1214,8 @@ if (c3overBox) {
 
 if (c4overBox) {
     iframe4.show();
-    iframe0.hide();
-    iframenews.hide();
+//    iframe0.hide();
+//    iframenews.hide();
 
   } else {
     iframe4.hide();
@@ -1225,8 +1225,8 @@ if (c4overBox) {
 
 if (c5overBox) {
     iframe5.show();
-    iframe0.hide();
-    iframenews.hide();
+//    iframe0.hide();
+//    iframenews.hide();
 
   } else {
     iframe5.hide();
@@ -1236,8 +1236,8 @@ if (c5overBox) {
 
 if (c6overBox) {
     iframe6.show();
-    iframe0.hide();
-    iframenews.hide();
+//    iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe6.hide();
@@ -1247,8 +1247,8 @@ if (c6overBox) {
 
 if (c7overBox) {
     iframe7.show();
-    iframe0.hide();
-    iframenews.hide();
+ //   iframe0.hide();
+  //  iframenews.hide();
 
   } else {
     iframe7.hide();
@@ -1258,8 +1258,8 @@ if (c7overBox) {
 
 if (c8overBox) {
     iframe8.show();
-    iframe0.hide();
-    iframenews.hide();
+ //   iframe0.hide();
+   // iframenews.hide();
 
   } else {
     iframe8.hide();
@@ -1269,8 +1269,8 @@ if (c8overBox) {
 
 if (c9overBox) {
     iframe9.show();
-    iframe0.hide();
-    iframenews.hide();
+ //   iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe9.hide();
@@ -1280,8 +1280,8 @@ if (c9overBox) {
 
 if (c10overBox) {
     iframe10.show();
-    iframe0.hide();
-    iframenews.hide();
+ //   iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe10.hide();
@@ -1290,8 +1290,8 @@ if (c10overBox) {
 ////////
 if (c11overBox) {
     iframe11.show();
-    iframe0.hide();
-    iframenews.hide();
+ //   iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe11.hide();
@@ -1300,8 +1300,8 @@ if (c11overBox) {
 ////////
 if (c12overBox) {
     iframe12.show();
-    iframe0.hide();
-    iframenews.hide();
+ //   iframe0.hide();
+ //   iframenews.hide();
 
   } else {
     iframe12.hide();
