@@ -223,8 +223,8 @@ let c4stext = 'Curated by Maria Villa.';
 let c5text = 'Conversing with Josse'; 
 let c5stext = 'Trans-Human Communication.';
 
-let c6text = 'Rumors'; 
-let c6stext = 'Savvy Contemporary, DE.';
+let c6text = 'Book'; 
+let c6stext = 'Aalto books.';
 
 let c7text = 'VISUAL LISTENING'; 
 let c7stext = 'Performance.';
@@ -283,7 +283,7 @@ var winbar;
 let fonti;
 
 // Sound, Volume
-smax = 0.90 //
+smax = 0.01 //  (cero volume, cambiar!)
 smin = 0.1
 sfade = 0.2;
 mfade = 0.15;
@@ -399,7 +399,6 @@ iframe4.mouseOver(iframeover);
 iframe4.position(iframeleftall,64 );
 iframe4.hide();
   
-
 iframe5 = sketch.createElement("iframe");
 iframe5.attribute("src","iframes/conversingjosse.html");
 iframe5.attribute("frameborder","none");
@@ -410,7 +409,7 @@ iframe5.position(iframeleftall,64 );
 iframe5.hide();
 
 iframe6 = sketch.createElement("iframe");
-iframe6.attribute("src","https://savvy-contemporary.com/en/events/2022/how-will-you-ascertain-time");
+iframe6.attribute("src","iframes/book.html");
 iframe6.attribute("frameborder","none");
 iframe6.attribute("height", sketch.windowHeight);
 iframe6.attribute("width", "640");
