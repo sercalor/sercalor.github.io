@@ -364,7 +364,7 @@ let iframeleftall = 260;
 // iframe0.hide();
 
 iframe1 = sketch.createElement("iframe");
-iframe1.attribute("src","iframes/intro.html");
+iframe1.attribute("src","iframes/manifesto.html");
 iframe1.attribute("frameborder","none");
 iframe1.attribute("height", sketch.windowHeight);
 iframe1.attribute("width", "640");
@@ -382,7 +382,7 @@ iframe2.position(iframeleftall,64 );
 iframe2.hide();
 
 iframe3 = sketch.createElement("iframe");
-iframe3.attribute("src","iframes/dongermanmusic.html");
+iframe3.attribute("src","iframes/construction.html");
 iframe3.attribute("frameborder","none");
 iframe3.attribute("height", sketch.windowHeight);
 iframe3.attribute("width", "640");
