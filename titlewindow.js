@@ -3,7 +3,7 @@ let b;
 let direction;
 
 function setup() {
-  createCanvas(1900, windowHeight / 2);
+  createCanvas(1000, windowHeight / 2);
   colorMode(RGB, 255);
  // position(0,0);
   a = 0;

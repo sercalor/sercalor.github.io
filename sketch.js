@@ -206,22 +206,22 @@ var c12alphasel;
 
 var c12a = 50;
 
-//TEXT
+//TEXT MENUBAR
 
-let c1text = 'History'; 
-let c1stext = '2014-2030';
+let c1text = 'Introduction'; 
+let c1stext = 'converse is to conserve';
 
-let c2text = 'Construction'; 
-let c2stext = 'made by hand.';
+let c2text = 'History'; 
+let c2stext = '2014-2030';
 
-let c3text = 'User Manual'; 
-let c3stext = 'Otaniemi Campus';
+let c3text = 'Construction'; 
+let c3stext = 'hands with hands';
 
-let c4text = 'Squirrels nest'; 
-let c4stext = 'Curated by Maria Villa.';
+let c4text = 'User Manual'; 
+let c4stext = 'Otaniemi Campus';
 
-let c5text = 'Conversing with Josse'; 
-let c5stext = 'Trans-Human Communication.';
+let c5text = 'Squirrels nest'; 
+let c5stext = 'Curated by Maria Villa';
 
 let c6text = 'Book'; 
 let c6stext = 'Aalto books.';
@@ -342,38 +342,38 @@ var firstmarc;
 
 
 let iframeleftall = 260;
-////////////////////////
+//////////////////////// MENUBAR TEXTS IFRAMES
 
-iframenews = sketch.createElement("iframe");
-iframenews.attribute("src","iframes/news.html");
-iframenews.attribute("frameborder","none");
-iframenews.attribute("height", sketch.windowHeight);
-iframenews.attribute("width", "640");
-// iframenews.mouseOver(iframeover,64);
-iframenews.position(iframeleftall,100 );
-iframenews.show();
+// iframenews = sketch.createElement("iframe");
+// iframenews.attribute("src","iframes/news.html");
+// iframenews.attribute("frameborder","none");
+// iframenews.attribute("height", sketch.windowHeight);
+// iframenews.attribute("width", "640");
+// // iframenews.mouseOver(iframeover,64);
+// iframenews.position(iframeleftall,100 );
+// iframenews.show();
 
 
-iframe0 = sketch.createElement("iframe");
-iframe0.attribute("src","iframes/introtext.html");
-iframe0.attribute("frameborder","none");
-iframe0.attribute("height", sketch.windowHeight);
-iframe0.attribute("width", "640");
-iframe0.mouseOver(iframeover,64);
-iframe0.position(iframeleftall,64 );
-iframe0.hide();
+// iframe0 = sketch.createElement("iframe");
+// iframe0.attribute("src","iframes/introtext.html");
+// iframe0.attribute("frameborder","none");
+// iframe0.attribute("height", sketch.windowHeight);
+// iframe0.attribute("width", "640");
+// iframe0.mouseOver(iframeover,64);
+// iframe0.position(iframeleftall,64 );
+// iframe0.hide();
 
 iframe1 = sketch.createElement("iframe");
-iframe1.attribute("src","iframes/crfinland.html");
+iframe1.attribute("src","iframes/intro.html");
 iframe1.attribute("frameborder","none");
 iframe1.attribute("height", sketch.windowHeight);
 iframe1.attribute("width", "640");
 iframe1.mouseOver(iframeover);
 iframe1.position(iframeleftall,64 );
-iframe1.hide();
+iframe1.show();
 
 iframe2 = sketch.createElement("iframe");
-iframe2.attribute("src","https://turbatol.org/");
+iframe2.attribute("src","iframes/crfinland.html");
 iframe2.attribute("frameborder","none");
 iframe2.attribute("height", sketch.windowHeight);
 iframe2.attribute("width", "640");
@@ -400,7 +400,7 @@ iframe4.position(iframeleftall,64 );
 iframe4.hide();
   
 iframe5 = sketch.createElement("iframe");
-iframe5.attribute("src","iframes/conversingjosse.html");
+iframe5.attribute("src","https://podcast.aalto.fi/squirrelsnest/conversation-room/");
 iframe5.attribute("frameborder","none");
 iframe5.attribute("height", sketch.windowHeight);
 iframe5.attribute("width", "640");
