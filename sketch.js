@@ -208,8 +208,8 @@ var c12a = 50;
 
 //TEXT MENUBAR
 
-let c1text = 'Introduction'; 
-let c1stext = 'converse is to conserve';
+let c1text = 'Manifesto'; 
+let c1stext = 'conVerse is to conServe';
 
 let c2text = 'History'; 
 let c2stext = '2014-2030';
@@ -220,7 +220,7 @@ let c3stext = 'hands with hands';
 let c4text = 'User Manual'; 
 let c4stext = 'Otaniemi Campus';
 
-let c5text = 'Squirrels nest'; 
+let c5text = 'Podcast'; 
 let c5stext = 'Curated by Maria Villa';
 
 let c6text = 'Book'; 
@@ -400,7 +400,7 @@ iframe4.position(iframeleftall,64 );
 iframe4.hide();
   
 iframe5 = sketch.createElement("iframe");
-iframe5.attribute("src","https://podcast.aalto.fi/squirrelsnest/conversation-room/");
+iframe5.attribute("src","iframes/podcast.html");
 iframe5.attribute("frameborder","none");
 iframe5.attribute("height", sketch.windowHeight);
 iframe5.attribute("width", "640");
