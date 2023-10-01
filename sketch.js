@@ -426,50 +426,6 @@ iframe6.hide();
 // iframe7.position(iframeleftall,64 );
 // iframe7.hide();
 
-// iframe8 = sketch.createElement("iframe");
-// iframe8.attribute("src","iframes/transitio.html");
-// iframe8.attribute("frameborder","none");
-// iframe8.attribute("height", sketch.windowHeight);
-// iframe8.attribute("width", "660");
-// iframe8.mouseOver(iframeover);
-// iframe8.position(iframeleftall,64 );
-// iframe8.hide();
-
-// iframe9 = sketch.createElement("iframe");
-// iframe9.attribute("src","iframes/portraits.html");
-// iframe9.attribute("frameborder","none");
-// iframe9.attribute("height", sketch.windowHeight);
-// iframe9.attribute("width", "660");
-// iframe9.mouseOver(iframeover);
-// iframe9.position(iframeleftall,64 );
-// iframe9.hide();
-
-// iframe10 = sketch.createElement("iframe");
-// iframe10.attribute("src","iframes/precarious.html");
-// iframe10.attribute("frameborder","none");
-// iframe10.attribute("height", sketch.windowHeight);
-// iframe10.attribute("width", "550");
-// iframe10.mouseOver(iframeover);
-// iframe10.position(iframeleftall,55 );
-// iframe10.hide();
-
-// iframe11 = sketch.createElement("iframe");
-// iframe11.attribute("src","iframes/whiteonwhite.html");
-// iframe11.attribute("frameborder","none");
-// iframe11.attribute("height", sketch.windowHeight);
-// iframe11.attribute("width", "550");
-// iframe11.mouseOver(iframeover);
-// iframe11.position(iframeleftall,55 );
-// iframe11.hide();
-
-// iframe12 = sketch.createElement("iframe");
-// iframe12.attribute("src","iframes/winipeg.html");
-// iframe12.attribute("frameborder","none");
-// iframe12.attribute("height", sketch.windowHeight);
-// iframe12.attribute("width", "550");
-// iframe12.mouseOver(iframeover);
-// iframe12.position(iframeleftall,55 );
-// iframe12.hide();
 
 
 
@@ -479,49 +435,7 @@ iframe6.hide();
   // s1.play();
   // s1.loop();
   
-  // s2.setVolume(smin);
-  // s2.play();
-  // s2.loop();
-  
-  // s3.setVolume(smin);
-  // s3.play();
-  // s3.loop();
-  
-  // s4.setVolume(smin);
-  // s4.play();
-  // s4.loop();
-  
-  // s5.setVolume(smin);
-  // s5.play();
-  // s5.loop();
-  
-  // s6.setVolume(smin);
-  // s6.play();
-  // s6.loop();
-  
-  // s7.setVolume(smin);
-  // s7.play();
-  // s7.loop();
 
-  // s8.setVolume(smin);
-  // s8.play();
-  // s8.loop();
-
-  // s9.setVolume(smin);
-  // s9.play();
-  // s9.loop();
-
-  // s10.setVolume(smin);
-  // s10.play();
-  // s10.loop();
-
-  // s11.setVolume(smin);
-  // s11.play();
-  // s11.loop();
-
-  // s12.setVolume(smin);
-  // s12.play();
-  // s12.loop();
   }
 
  
@@ -532,17 +446,7 @@ sketch.preload = function(){
 //PRELOAD SOUNDS
 //  sketch.soundFormats('mp3','m4a');
   // s1 = sketch.loadSound('soundcanvas1/transit2.m4a');
-  // s2 = sketch.loadSound('soundcanvas1/turbatol.m4a');
-  // s3 = sketch.loadSound('soundcanvas1/dongermanmusic.m4a');
-  // s4 = sketch.loadSound('soundcanvas1/distancia.m4a');
-  // s5 = sketch.loadSound('soundcanvas1/conversingjosse.m4a');
-  // s6 = sketch.loadSound('soundcanvas1/savvy.m4a');
-//   s7 = sketch.loadSound('soundcanvas1/escuchav.m4a');
-//   s8 = sketch.loadSound('soundcanvas1/transitio.m4a');
-// s9 = sketch.loadSound('soundcanvas1/portraits.m4a');
-// s10 = sketch.loadSound('soundcanvas1/precarious.m4a');
-// s11 = sketch.loadSound('soundcanvas1/whiteonwhite.m4a');
-// s12 = sketch.loadSound('soundcanvas1/winipeg.m4a');
+
 
 // fonts
 fonti = sketch.loadFont('Roboto/Roboto-Italic.ttf');
@@ -668,75 +572,6 @@ sketch.text(c6stext, c6bx, c6by + 20, c6boxSizex, c6boxSizey - 20);
 // sketch.fill(textcolorc7-textsubval);
 // sketch.text(c7stext, c7bx, c7by + 30, c7boxSizex, c7boxSizey); 
 
-
-// //C8 text
-// sketch.textFont(fonti);
-// sketch.textSize(MainTextsize);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc8);
-// sketch.text(c8text, c8bx, c8by, c8boxSizex, c8boxSizey); 
-
-
-// sketch.textSize(15);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc8-textsubval);
-// sketch.text(c8stext, c8bx, c8by + 30, c8boxSizex, c8boxSizey); 
-
-
-// //C9 text
-// sketch.textFont(fonti);
-// sketch.textSize(MainTextsize);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc9);
-// sketch.text(c9text, c9bx, c9by, c9boxSizex, c9boxSizey); 
-
-
-// sketch.textSize(19);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc9-textsubval);
-// sketch.text(c9stext, c9bx, c9by + 30, c9boxSizex, c9boxSizey); 
-
- 
-// //C10 text
-// sketch.textFont(fonti);
-// sketch.textSize(MainTextsize);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc10);
-// sketch.text(c10text, c10bx, c10by, c10boxSizex, c10boxSizey); 
-
-
-// sketch.textSize(15);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc10-textsubval);
-// sketch.text(c10stext, c10bx, c10by + 30, c10boxSizex, c10boxSizey); 
-
-
-// //C11 text
-// sketch.textFont(fonti);
-// sketch.textSize(MainTextsize);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc11);
-// sketch.text(c11text, c11bx, c11by, c11boxSizex, c11boxSizey); 
-
-
-// sketch.textSize(15);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc11-textsubval);
-// sketch.text(c11stext, c11bx, c11by + 30, c11boxSizex, c11boxSizey); 
-
-
-// //C12 text
-// sketch.textFont(fonti);
-// sketch.textSize(MainTextsize);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc12);
-// sketch.text(c12text, c12bx, c12by, c12boxSizex, c12boxSizey); 
-
-
-// sketch.textSize(15);
-// sketch.textAlign(sketch.CENTER, sketch.CENTER);
-// sketch.fill(textcolorc12-textsubval);
-// sketch.text(c12stext, c12bx, c12by + 30, c12boxSizex, c12boxSizey); 
 
 
 
@@ -1000,147 +835,6 @@ sketch.rect(c6bx, c6by, c6boxSizex, c6boxSizey);
 // sketch.rect(c7bx, c7by, c7boxSizex, c7boxSizey);   
 
 
-// // c8 Mouse highlight
-
-// if (
-//     sketch.mouseX > c8bx - c8boxSizex &&
-//     sketch.mouseX < c8bx + c8boxSizex &&
-//     sketch.mouseY > yc8u &&
-//     sketch.mouseY < yc8d
-//   ) {
-//     c8overBox = true;
-//     if (!c8locked) {
-//   rectcolorc8 = rectselect;
-//   s8.fade(smax,sfade);
-//   textcolorc8 = textsel;
-    
-//     }
-//   } else {
-//     c8overBox = false;
-//     rectcolorc8 = rectnotsel;
-//     s8.fade(smin,sfade);
-//     textcolorc8 = textnotsel;
-//   }
-
-  
- 
-//  sketch.fill(rectcolorc8, rectcolorc8, rectcolorc8, 150); //in the box
-// sketch.rect(c8bx, c8by, c8boxSizex, c8boxSizey);   
-
-
-// // c9 Mouse highlight
-
-// if (
-//     sketch.mouseX > c9bx - c9boxSizex &&
-//     sketch.mouseX < c9bx + c9boxSizex &&
-//     sketch.mouseY > yc9u &&
-//     sketch.mouseY < yc9d
-//   ) {
-//     c9overBox = true;
-//     if (!c9locked) {
-//   rectcolorc9 = rectselect;
-//   s9.fade(smax,sfade);
-//   textcolorc9 = textsel;
-    
-//     }
-//   } else {
-//     c9overBox = false;
-//     rectcolorc9 = rectnotsel;
-//     s9.fade(smin,sfade);
-//     textcolorc9 = textnotsel;
-//   }
-
-  
- 
-//  sketch.fill(rectcolorc9, rectcolorc9, rectcolorc9, 190); //in the box
-// sketch.rect(c9bx, c9by, c9boxSizex, c9boxSizey);   
-
-
-
-// // c10 Mouse highlight
-
-// if (
-//     sketch.mouseX > c10bx - c10boxSizex &&
-//     sketch.mouseX < c10bx + c10boxSizex &&
-//     sketch.mouseY > yc10u &&
-//     sketch.mouseY < yc10d
-//   ) {
-//     c10overBox = true;
-//     if (!c10locked) {
-//   rectcolorc10 = rectselect;
-//   s10.fade(smax,sfade);
-//   textcolorc10 = textsel;
-    
-//     }
-//   } else {
-//     c10overBox = false;
-//     rectcolorc10 = rectnotsel;
-//     s10.fade(smin,sfade);
-//     textcolorc10 = textnotsel;
-//   }
-
-  
- 
-//  sketch.fill(rectcolorc10, rectcolorc10, rectcolorc10, 150); //in the box
-// sketch.rect(c10bx, c10by, c10boxSizex, c10boxSizey);   
-
-
-
-// // c11 Mouse highlight
-
-// if (
-//     sketch.mouseX > c11bx - c11boxSizex &&
-//     sketch.mouseX < c11bx + c11boxSizex &&
-//     sketch.mouseY > yc11u &&
-//     sketch.mouseY < yc11d
-//   ) {
-//     c11overBox = true;
-//     if (!c11locked) {
-//   rectcolorc11 = rectselect;
-//   s11.fade(smax,sfade);
-//   textcolorc11 = textsel;
-    
-//     }
-//   } else {
-//     c11overBox = false;
-//     rectcolorc11 = rectnotsel;
-//     s11.fade(smin,sfade);
-//     textcolorc11 = textnotsel;
-//   }
-
-  
- 
-//  sketch.fill(rectcolorc11, rectcolorc11, rectcolorc11, 150); //in the box
-// sketch.rect(c11bx, c11by, c11boxSizex, c11boxSizey);   
-
-
-// // c12 Mouse highlight
-
-// if (
-//     sketch.mouseX > c12bx - c12boxSizex &&
-//     sketch.mouseX < c12bx + c12boxSizex &&
-//     sketch.mouseY > yc12u &&
-//     sketch.mouseY < yc12d
-//   ) {
-//     c12overBox = true;
-//     if (!c12locked) {
-//   rectcolorc12 = rectselect;
-//   s12.fade(smax,sfade);
-//   textcolorc12 = textsel;
-    
-//     }
-//   } else {
-//     c12overBox = false;
-//     rectcolorc12 = rectnotsel;
-//     s12.fade(smin,sfade);
-//     textcolorc12 = textnotsel;
-//   }
-
-  
- 
-//  sketch.fill(rectcolorc12, rectcolorc12, rectcolorc12, 150); //in the box
-// sketch.rect(c12bx, c12by, c12boxSizex, c12boxSizey);   
-// ////////////////////////////////////////////////////////////
 
 
 
