@@ -2,7 +2,7 @@
 
 let sk1 = function( sketch ) {
   
-let SoundoverBar = false;
+// let SoundoverBar = false;
 
 
 
@@ -208,20 +208,20 @@ var c12a = 50;
 
 //TEXT MENUBAR
 
-let c1text = 'Manifesto'; 
-let c1stext = 'conVerse is to conServe';
+let c1text = 'Why?'; 
+let c1stext = 'Conversing a Manifesto';
 
 let c2text = 'History'; 
-let c2stext = '2014-2030';
+let c2stext = '2014-2075';
 
 let c3text = 'Construction'; 
 let c3stext = 'hands with hands';
 
 let c4text = 'User Manual'; 
-let c4stext = 'Otaniemi Campus';
+let c4stext = 'oral craftsmanship';
 
 let c5text = 'Podcast'; 
-let c5stext = 'Curated by Maria Villa';
+let c5stext = 'curated by Maria Villa';
 
 let c6text = 'Book'; 
 let c6stext = 'Aalto books.';
@@ -283,11 +283,11 @@ var winbar;
 let fonti;
 
 // Sound, Volume
-smax = 0.01 //  (cero volume, cambiar!)
-smin = 0.1
-sfade = 0.2;
-mfade = 0.15;
-var mvolume = smax;
+// smax = 0.01 //  (cero volume, cambiar!)
+// smin = 0.1
+// sfade = 0.2;
+// mfade = 0.15;
+// var mvolume = smax;
 
 //var Iframes
 var iframe1;
@@ -305,7 +305,7 @@ var iframe12;
 
 var iframetres;
 
-iframeactivo = smin;
+// iframeactivo = smin;
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
@@ -367,16 +367,16 @@ iframe1 = sketch.createElement("iframe");
 iframe1.attribute("src","iframes/manifesto.html");
 iframe1.attribute("frameborder","none");
 iframe1.attribute("height", sketch.windowHeight);
-iframe1.attribute("width", "640");
+iframe1.attribute("width", "680");
 iframe1.mouseOver(iframeover);
 iframe1.position(iframeleftall,64 );
 iframe1.hide();
 
 iframe2 = sketch.createElement("iframe");
-iframe2.attribute("src","iframes/crfinland.html");
+iframe2.attribute("src","iframes/history.html");
 iframe2.attribute("frameborder","none");
 iframe2.attribute("height", sketch.windowHeight);
-iframe2.attribute("width", "640");
+iframe2.attribute("width", "680");
 iframe2.mouseOver(iframeover);
 iframe2.position(iframeleftall,64 );
 iframe2.hide();
@@ -385,7 +385,7 @@ iframe3 = sketch.createElement("iframe");
 iframe3.attribute("src","iframes/construction.html");
 iframe3.attribute("frameborder","none");
 iframe3.attribute("height", sketch.windowHeight);
-iframe3.attribute("width", "640");
+iframe3.attribute("width", "680");
 iframe3.mouseOver(iframeover);
 iframe3.position(iframeleftall,64 );
 iframe3.hide();
@@ -394,7 +394,7 @@ iframe4 = sketch.createElement("iframe");
 iframe4.attribute("src","iframes/custodian.html");
 iframe4.attribute("frameborder","none");
 iframe4.attribute("height", sketch.windowHeight);
-iframe4.attribute("width", "640");
+iframe4.attribute("width", "680");
 iframe4.mouseOver(iframeover);
 iframe4.position(iframeleftall,64 );
 iframe4.hide();
@@ -403,7 +403,7 @@ iframe5 = sketch.createElement("iframe");
 iframe5.attribute("src","iframes/podcast.html");
 iframe5.attribute("frameborder","none");
 iframe5.attribute("height", sketch.windowHeight);
-iframe5.attribute("width", "640");
+iframe5.attribute("width", "680");
 iframe5.mouseOver(iframeover);
 iframe5.position(iframeleftall,64 );
 iframe5.hide();
@@ -412,7 +412,7 @@ iframe6 = sketch.createElement("iframe");
 iframe6.attribute("src","iframes/book.html");
 iframe6.attribute("frameborder","none");
 iframe6.attribute("height", sketch.windowHeight);
-iframe6.attribute("width", "640");
+iframe6.attribute("width", "680");
 iframe6.mouseOver(iframeover);
 iframe6.position(iframeleftall,64 );
 iframe6.hide();
@@ -475,29 +475,29 @@ iframe6.hide();
 
   //SOUND SETUP
 
-  s1.setVolume(smin);
-  s1.play();
-  s1.loop();
+  // s1.setVolume(smin);
+  // s1.play();
+  // s1.loop();
   
-  s2.setVolume(smin);
-  s2.play();
-  s2.loop();
+  // s2.setVolume(smin);
+  // s2.play();
+  // s2.loop();
   
-  s3.setVolume(smin);
-  s3.play();
-  s3.loop();
+  // s3.setVolume(smin);
+  // s3.play();
+  // s3.loop();
   
-  s4.setVolume(smin);
-  s4.play();
-  s4.loop();
+  // s4.setVolume(smin);
+  // s4.play();
+  // s4.loop();
   
-  s5.setVolume(smin);
-  s5.play();
-  s5.loop();
+  // s5.setVolume(smin);
+  // s5.play();
+  // s5.loop();
   
-  s6.setVolume(smin);
-  s6.play();
-  s6.loop();
+  // s6.setVolume(smin);
+  // s6.play();
+  // s6.loop();
   
   // s7.setVolume(smin);
   // s7.play();
@@ -530,13 +530,13 @@ sketch.preload = function(){
 
 
 //PRELOAD SOUNDS
-  sketch.soundFormats('mp3','m4a');
-  s1 = sketch.loadSound('soundcanvas1/transit2.m4a');
-  s2 = sketch.loadSound('soundcanvas1/turbatol.m4a');
-  s3 = sketch.loadSound('soundcanvas1/dongermanmusic.m4a');
-  s4 = sketch.loadSound('soundcanvas1/distancia.m4a');
-  s5 = sketch.loadSound('soundcanvas1/conversingjosse.m4a');
-  s6 = sketch.loadSound('soundcanvas1/savvy.m4a');
+//  sketch.soundFormats('mp3','m4a');
+  // s1 = sketch.loadSound('soundcanvas1/transit2.m4a');
+  // s2 = sketch.loadSound('soundcanvas1/turbatol.m4a');
+  // s3 = sketch.loadSound('soundcanvas1/dongermanmusic.m4a');
+  // s4 = sketch.loadSound('soundcanvas1/distancia.m4a');
+  // s5 = sketch.loadSound('soundcanvas1/conversingjosse.m4a');
+  // s6 = sketch.loadSound('soundcanvas1/savvy.m4a');
 //   s7 = sketch.loadSound('soundcanvas1/escuchav.m4a');
 //   s8 = sketch.loadSound('soundcanvas1/transitio.m4a');
 // s9 = sketch.loadSound('soundcanvas1/portraits.m4a');
@@ -797,7 +797,7 @@ sketch.text(c6stext, c6bx, c6by + 20, c6boxSizex, c6boxSizey - 20);
   
 
 
- sketch.masterVolume(mvolume, mfade);
+ // sketch.masterVolume(mvolume, mfade);
 
 // sketch.print('mouseposition' + sketch.mouseX);
 
@@ -815,17 +815,17 @@ if ( // if the mouse is over c1
     if (!c1locked) {
 
 rectcolorc1 = rectselect;  //change the color to c1
-// s1.play();
-s1.fade(smax,sfade);
+
+// s1.fade(smax,sfade);
 textcolorc1 = textsel;
     
     }
   } else {
     c1overBox = false;
    rectcolorc1 = rectnotsel;
-  // c1a = cmid;
-  s1.fade(smin,sfade);
-  // s1.stop();
+
+  // s1.fade(smin,sfade);
+
   textcolorc1 = textnotsel;
   
   }
@@ -848,14 +848,14 @@ if (
     c2overBox = true;
     if (!c2locked) {
 rectcolorc2 = rectselect;
-s2.fade(smax,sfade);
+// s2.fade(smax,sfade);
 textcolorc2 = textsel;
     
     }
   } else {
     c2overBox = false;
     rectcolorc2 = rectnotsel;
-  s2.fade(smin,sfade);
+  // s2.fade(smin,sfade);
   textcolorc2 = textnotsel;
   }
 
@@ -875,14 +875,14 @@ if (
     c3overBox = true;
     if (!c3locked) {
 rectcolorc3 = rectselect;
-s3.fade(smax,sfade);
+// s3.fade(smax,sfade);
 textcolorc3 = textsel;
   }
   
   } else {
     c3overBox = false;
 rectcolorc3 = rectnotsel;
-s3.fade(smin,sfade);
+// s3.fade(smin,sfade);
 textcolorc3 = textnotsel;
   }
 
@@ -901,14 +901,14 @@ if (
     c4overBox = true;
     if (!c4locked) {
 rectcolorc4 = rectselect;
-s4.fade(smax,sfade);
+// s4.fade(smax,sfade);
 textcolorc4 = textsel;
     
     }
   } else {
     c4overBox = false;
    rectcolorc4 = rectnotsel;
-  s4.fade(smin,sfade);
+  // s4.fade(smin,sfade);
   textcolorc4 = textnotsel;
   }
 
@@ -926,14 +926,14 @@ if (
     c5overBox = true;
     if (!c5locked) {
   rectcolorc5 = rectselect;
-  s5.fade(smax,sfade);
+  // s5.fade(smax,sfade);
   textcolorc5 = textsel;
     
     }
   } else {
     c5overBox = false;
     rectcolorc5 = rectnotsel;
-    s5.fade(smin,sfade);
+    // s5.fade(smin,sfade);
     textcolorc5 = textnotsel;
   }
 
@@ -954,14 +954,14 @@ if (
     c6overBox = true;
     if (!c6locked) {
   rectcolorc6 = rectselect;
-  s6.fade(smax,sfade);
+  // s6.fade(smax,sfade);
   textcolorc6 = textsel;
     
     }
   } else {
     c6overBox = false;
     rectcolorc6 = rectnotsel;
-    s6.fade(smin,sfade);
+    // s6.fade(smin,sfade);
     textcolorc6 = textnotsel;
   }
 
@@ -1155,14 +1155,13 @@ sketch.rect(c6bx, c6by, c6boxSizex, c6boxSizey);
 //Scroll setup
 
 var mouseCanvas = function (evt) {
- // mvolume = smax;
 
 console.log('inside');
  }
 
 var iframeover = function (evt) {
- // mvolume = 0.01;
-s3.fade(smin,sfade);
+
+// s3.fade(smin,sfade);
 c3overBox = false;
  console.log('outside iframe');
 
@@ -1173,7 +1172,7 @@ c3overBox = false;
 //Activate audio mouse pressed.
    var doPress = function(evt) {
     sketch.print('mousepresseded');
-    sketch.getAudioContext().resume()
+    // sketch.getAudioContext().resume()
 
 
 // these if's shows the iframes once you click the text menu bar
