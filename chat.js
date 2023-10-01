@@ -3,7 +3,7 @@ let b;
 let direction;
 
 function setup() {
-  createCanvas(1000, windowHeight / 2);
+  createCanvas(1900, windowHeight / 2);
   colorMode(RGB, 255);
  // position(0,0);
   a = 0;
@@ -42,6 +42,6 @@ function draw() {
 fill(200);
 textFont('Helvetica');
 textSize(22);
-text('As for now, our lungs are being slowly filled with air in preparation for tomorrow when we will send it across oceans and continents to you.',a,20); 
-text('As for now, our lungs are being slowly filled with air in preparation for tomorrow when we will send it across oceans and continents to you.',b,45); 
+text('hello, how are you?.',a,20); 
+text('yes, I am fine!',b,45); 
 }

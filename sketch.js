@@ -212,7 +212,7 @@ let c1text = 'Why?';
 let c1stext = 'Conversing a Manifesto';
 
 let c2text = 'History'; 
-let c2stext = '2014-2075';
+let c2stext = '2014-2084';
 
 let c3text = 'Construction'; 
 let c3stext = 'hands with hands';
@@ -341,7 +341,7 @@ var firstmarc;
 
 
 
-let iframeleftall = 260;
+let iframeleftall = 290;
 //////////////////////// MENUBAR TEXTS IFRAMES
 
 // iframenews = sketch.createElement("iframe");
